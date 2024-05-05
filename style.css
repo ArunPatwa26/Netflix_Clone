@@ -4,9 +4,444 @@
     box-sizing: border-box;
 }
 
+@media screen and (max-width:600px) and (min-width:400px){
+    .main1{
+        height:97vh;
+        width: 100%;
+        background-image: url('image/bg.png');
+        background-repeat: no-repeat;
+        /* background-position: center; */
+        background-size:cover;
+        background-attachment: fixed;
+        /* background-color: red; */
+    }
+    .background{
+        background-color: black;
+        height: 97vh;
+        width: 100%;
+        opacity: 0.5;
+    }
+    .bgbackground{
+        /* background-color: black; */
+        background-position: center;
+        /* box-shadow: inset 0px 0px 101px 91px black; */
+        box-shadow: inset 0px 0px 71px 25px black;
+        height: 97vh;
+        width: 100vw;
+        /* opacity: 0.5; */
+        
+    
+    }
+    .logo{
+        display: inline;
+        margin: 5px -89px;
+    }
+    .logo img{
+        height: 30px;
+        width: 70px;
+    }
+    
+    .buttons{
+       margin: 0px -140px;
+       font-size: 12px;
+       /* float: right; */
+    }
+    .buttons button:first-child{
+        border: 2px solid white;
+        /* outline: white; */
+        border-radius: 4px;
+        margin: 0px 4px;
+        font-size: 12px;
+    }
+    button{
+        width: 55px;
+        height: 30px;
+    }
+    .buttons button select{
+        background: transparent;
+        color: white;
+        /* width: 50px; */
+        margin: 0px -30px;
+        font-size: 10px;
+        outline: none;
+        border: none;
+    }
+    .buttons button select option{
+        color: black;
+        font-size: 10px;
+        margin: 0px 0px;
+        /* font-size: 10px; */
+       text-align: center;
+    }
+    .buttons button{
+        padding: 0px 0px;
+        }
+    .signin{
+        font-size: 10px;
+        width: 64px;
+        }
+        .text1{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+        .text{
+            color: white;
+            /* position: relative; */
+            /* display: flex; */
+            /* display: inline; */
+            margin: -131px -255px;
+            /* top: 30vh;
+            left: 4px; */
+            max-width: 350px;
+            /* text-align: center; */
+        }
+        .text h1{
+            font-size: 24px;
+        }
+        .text h3{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 6px 0px;
+            font-size: 18px;
+            /* font-weight: bold; */
+            font-weight: normal;
+        }
+        .text h4{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 16px 0px;
+            font-size: 20px;
+            /* font-weight: bold; */
+            font-weight: normal;
+        }
+        .text input[type=text]{
+            width: 350px;
+            border-radius: 6px;
+            height: 48px;
+            background: transparent;
+            border: 1px solid white;
+            outline: none;
+            padding: 0px 20px;
+            margin: 4px 22px;
+            color: white;
+            
+        }
+        .text button{
+            justify-content: center;
+            margin: 5px 74px;
+        }
+        .section2{
+            display: flex;
+            flex-direction: column;
+        }
+        .secondsection{
+            display: flex;
+            flex-direction: column;
+        }
+        .right2{
+           display: flex;
+           flex-direction: column;
+           margin: -10px -77px;
+           width: 370px;
+
+        }
+        .right2 h1{
+            text-align: center;
+            font-size: 31px;
+             width: 350px;
+            
+    
+        }
+        .right2 h4{
+            font-size: 16px;
+            width: 370px;
+            text-align: center;
+        }
+        .left1{
+            max-width: 350px;
+            color:white;
+            position: relative;
+            top: 180px;
+            left: 140px;
+            /* margin: 15% 75px; */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+        }
+        .firstsection{
+            display: flex;
+            flex-direction: column;
+            /* justify-content:space-around; */
+        
+        
+        
+        }
+            .left1{
+                display: flex;
+                flex-direction: column;
+                width: 300px;
+                margin: -35px 0px;
+            }
+            .left1 h1{
+                font-size: 37px;
+                margin: 11px -123px;
+                font-weight: bold;
+                
+            }
+            .left1 h4{
+                margin: 5px -115px;
+                font-size: 20px;
+                max-width: 358px;
+                text-align: center;
+                font-weight: normal;
+            }
+            .img1{
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                top: 33vh;
+                right: 8px;
+            }
+            .img1 video{
+                position: relative;
+                top: -232px;
+                width: 225px;
+                /* right: revert-layer; */
+                height: 210px;
+                margin: 1px 23px;
+                
+            }
+            .img1 img{
+                width: 300px;
+                height: 240px;
+        
+            }
+            .img2{
+                display:flex;
+               margin: 0px -63px;
+            }
+            .img2 img{
+                height: 300px;
+                width: 300px;
+            }
+         
+            .thirdsection{
+                display: flex;
+                flex-direction: column;
+                /* justify-content:space-around; */
+            
+            
+            
+            }
+            .right3{
+              display: flex;
+              flex-direction: column;
+              margin: -94px 120px;
+              width: 360px;
+                
+                }
+                .right3 h1{
+                    text-align: center;
+                   
+                    
+                }
+                .right3 h4{
+                    margin: 4px 0px;
+                    font-size: 20px;
+                    font-weight: normal;
+                }
+                .image3 video{
+                    top: -119px;
+                    left: -259px;
+                    width: 200px;
+                    height: 200px;
+                    margin: -83px 365px;
+                    
+                }
+                .image3 img{
+                    display: flex;
+                    flex-direction: column;
+                    margin: 0px -102px;
+                    width: 300px;
+                    height: 300px;
+                }
+               
+                .fourthsection{
+                    display: flex;
+                    flex-direction: column;
+                }
+                .right4 h1{
+                    font-size: 44px;
+                    margin: 6px 0px;
+                    
+            
+                }
+                .right4 h4{
+                    margin: 0px -9px;
+                    max-width: 370px;
+            
+                }
+                .right4{
+                    margin: -77px -104px;
+                    width: 370px;
+                }
+                .img4{
+                    margin: 14px -103px;
+                }
+                .img4 img{
+                    width: 300px;
+                    height: 300px;
+                }
+                
+                
+                .heading{
+                    position: relative;
+                    top: 40px;
+                    /* padding: 10px 10px; */
+                }
+                .heading h1{
+                    font-size: 34px;
+                    max-width: 380px;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                }
+              .section5{
+                height: 112%;
+              }
+                .container{
+                   
+                    /* border: 2px solid red; */
+                    /* width: 370px; */
+                    max-width: 348px;
+                    margin: 4px 0px;
+                    /* left: -18px; */
+                    /* opacity: 0.8; */
+                }
+               
+                
+               
+                .emails{
+                    
+                    left: 15px;
+        
+                }
+                
+                .emails ::placeholder{
+                    color: white;
+                    /* opacity: 0.8; */
+                }
+                .emails button{
+                    margin: 8px 55px;
+                }
+            .emails h4{
+                max-width: 370px;
+                text-align: center;
+            }
+         .section6 a{
+        color: white
+    }
+.box2{
+    display: flex;
+    margin: 30px 0px;
+    max-width: 1100px;
+    margin: 70px auto;
+    /* flex-direction: column; */
+}
+.conatiner1{
+    width: 400px;
+    left: 5px;
+    margin: 0px 0px;
+
+}
+.conatiner1 button{
+    margin: 14px 0px;
+    width: 100px;
+    border-radius: 4px;
+    height: 10px;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+.conatiner1 select{
+    background: transparent;
+    color: white;
+    width: 100px;
+    text-align: center;
+    height: 20px;
+    border-radius: 2px;
+}
+.conatiner1 option{
+    color: black;
+}
+.conatiner1 p{
+    margin: 8px 0px;
+}
+.conatiner1 p a{
+    color: white;
+    font-weight: normal;
+}
+.section6 span{
+    display: flex;
+    max-width: 300px;
+    /* margin:  */
+    left: -154px;
+    /* left: 50px; */
+}
+.section6 {
+    display: flex;
+    /* flex-direction: column;
+    background-color: black;
+    height: 50vh; */
+}
+.section6 span a{
+    display: flex;
+    max-width: 300px;
+}
+        .box2{
+            width: 370px;
+            /* flex-direction: column; */
+        }
+        .conatiner1{
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            /* border: 2px solid red; */
+            /* align-items: center; */
+            position: relative;
+            left: 40px;
+        
+        }
+        .conatiner1 button{
+            margin: 14px 0px;
+            width: 100px;
+            border-radius: 4px;
+            height: 10px;
+            outline: none;
+            border: none;
+            background: transparent;
+        }
+        .conatiner1 select{
+            background: transparent;
+            color: white;
+            width: 100px;
+            text-align: center;
+            height: 20px;
+            border-radius: 2px;
+        }
+        .conatiner1 option{
+            color: black;
+        }
+        .conatiner1 p{
+            margin: 8px 0px;
+        }
+        .conatiner1 p a{
+            color: white;
+            font-weight: normal;
+        }
+     
+} 
+    
+
 .main1{
     height:97vh;
-    background-image: url('image/bg.png');
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/4d7bb476-6d8b-4c49-a8c3-7739fddd135c/deecf71d-7a47-4739-9e1a-31b6b0d55be7/IN-en-20240429-popsignuptwoweeks-perspective_alpha_website_large.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
@@ -99,7 +534,7 @@
 }
 .text h4{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 16px 0px;
+    /* margin: 16px 0px; */
     font-size: 20px;
     /* font-weight: bold; */
     font-weight: normal;
@@ -108,6 +543,7 @@
     width: 310px;
     border-radius: 6px;
     height: 48px;
+    margin: 14px 0px;
     background: transparent;
     border: 1px solid white;
     outline: none;
@@ -158,12 +594,12 @@
     
     }
     .left1 h1{
-        font-size: 48px;
+        font-size: 46px;
         font-weight: bold;
         
     }
     .left1 h4{
-        margin: 6px 0px;
+        /* margin: 6px 0px; */
         font-size: 20px;
         font-weight: normal;
     }
@@ -297,6 +733,7 @@
             left: 140px;
             top: 60px;
         }
+        /* section 5 */
         .section5{
             display: flex;
             flex-direction: column;
